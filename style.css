@@ -1,0 +1,107 @@
+
+ h1{
+    color:hsl(169, 100%, 51%)
+}
+
+h1,b,p{
+    font-family: rock n doll script;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+hr {
+    background-color: rgb(0, 0, 0);
+}
+
+.as{
+    background-color: rgb(0, 0, 0);
+
+    /* background-image: url("photos/bg3.jpg");
+    background-size: 100%;
+    background-position:center; */
+    color:white;
+}
+
+.menu{
+display: flex;
+justify-content: space-between;
+background-image: url("photos/bg1.jpeg");
+background-size: 100%;
+background-position:center;
+font-size: 20px;
+font-family: sans-serif;
+font-weight: 400;
+color: black;
+}
+
+.menu a{
+    margin-left: 20px;
+    margin-right: 30px;
+}
+
+.bodyimg{
+    color: rgb(83, 221, 226);  
+    background-image: url("photos/bg.png");
+    background-size: 50%; 
+}
+
+body{
+    background-color:unset;
+    margin:0px;
+}
+
+a:link{
+    color:white;
+}
+
+a:visited{
+    color: yellow;
+}
+
+.grid img{
+    border: 5px solid antiquewhite;
+    background-color: whitesmoke;
+    border-radius: 50px;
+}
+
+.grid{
+    display:flex ;
+    flex-wrap: wrap;
+    justify-content: space-around ;
+    background-image: url("photos/bg2.jpg");
+    background-size: 90%; 
+}
+
+.origami{
+    border-radius: 20px;
+    /* background-color:whitesmoke; */
+    color: rgb(255, 255, 255);  
+    padding:30px;
+    margin:25px;
+    width: 310px;
+    font-family: cursive;
+    position: relative;
+    padding: 2px;
+}
+
+.origami p{
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}
+
+.origami:hover {
+    transform: scale(1.1);
+}
+
+.origami:hover img{
+    opacity: 0.85;
+}
+
+.footer{
+    font-family: cursive;  
+}
