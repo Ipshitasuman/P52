@@ -141,3 +141,12 @@ a:visited{
     font-weight: normal;
     font-style: normal; 
 }
+
+@font-face{
+    font-family: 'KG What a Time';
+    src: url('fonts/kwat.woff2') format('woff2'),
+         url('fonts/kwat.woff') format('woff'),
+         url('fonts/kwat.ttf;') format('truetype');
+    font-weight: normal;
+    font-style: normal; 
+}
